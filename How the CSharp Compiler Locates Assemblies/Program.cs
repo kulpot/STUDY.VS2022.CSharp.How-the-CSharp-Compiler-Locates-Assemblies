@@ -592,7 +592,41 @@ C:\Users\sunny\source\repos\How the CSharp Compiler Locates Assemblies\How the C
                5 Dir(s)  486,934,200,320 bytes free
 
 C:\Users\sunny\source\repos\How the CSharp Compiler Locates Assemblies\How the CSharp Compiler Locates Assemblies>set path
-Path=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\\x86;C:\Program Files (x86)\Windows Kits\10\bin\\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Users\sunny\AppData\Local\Microsoft\WindowsApps;C:\Users\sunny\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunny\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+Path=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\Performance Tools;
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\\x86;
+C:\Program Files (x86)\Windows Kits\10\bin\\x86;
+C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;
+C:\Windows\Microsoft.NET\Framework\v4.0.30319;  <------------------HERE CSC.exe that runs when typing csc in CMD------|
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;
+C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;
+C:\WINDOWS\system32;
+C:\WINDOWS;
+C:\WINDOWS\System32\Wbem;
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\;
+C:\WINDOWS\System32\OpenSSH\;
+C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;
+C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;
+C:\Program Files\Git\cmd;
+C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;
+C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;
+C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;
+C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;
+C:\Program Files\Azure Data Studio\bin;
+C:\Program Files\dotnet\;
+C:\Users\sunny\AppData\Local\Microsoft\WindowsApps;
+C:\Users\sunny\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Users\sunny\.dotnet\tools;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
 PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 
 

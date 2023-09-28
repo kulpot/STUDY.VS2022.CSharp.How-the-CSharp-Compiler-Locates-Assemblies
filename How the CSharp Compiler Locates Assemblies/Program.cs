@@ -629,6 +629,34 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtens
 C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
 PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 
+-------------CREATED----------------------------
+//[assembly: AssemblyVersion("1.0.0.0")]
+
+class MainClass
+{
+    static void Main()
+    {
+        Cow.Moo();
+    }
+}
+
+
+//public class Cow
+//{
+//    public static void Moo()
+//    {
+//        Console.WriteLine("Kulpots moooooooooooo version 1");
+//    }
+//}
+----------------------------------------------
+
+move file Farm.dll 
+from------
+C:\Users\sunny\source\repos\How the CSharp Compiler Locates Assemblies\How the CSharp Compiler Locates Assemblies
+to------
+C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+
 
 
 
@@ -638,7 +666,7 @@ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 // CMD - vsvars32 script
 
 
-[assembly: AssemblyVersion("1.0.0.0")]
+//[assembly: AssemblyVersion("1.0.0.0")]
 
 //public class Cow
 //{
@@ -648,31 +676,31 @@ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 //    }
 //}
 
-//class MainClass
-//{
-//    static void Main()
-//    {
-//        Cow.Moo();
-//    }
-//}
-
-//class MainClass
-//{
-//    static void Main()
-//    {
-//        Cow.Moo();
-//        Cow.Moo();
-//        Cow.Moo();
-//        Cow.Moo();
-//        Cow.Moo();
-//        Cow.Moo();
-//    }
-//}
-
-public class Cow
+class MainClass
 {
-    public static void Moo()
+    static void Main()
     {
-        Console.WriteLine("Kulpots moooooooooooo version 1");
+        Cow.Moo();
     }
 }
+
+//class MainClass
+//{
+//    static void Main()
+//    {
+//        Cow.Moo();
+//        Cow.Moo();
+//        Cow.Moo();
+//        Cow.Moo();
+//        Cow.Moo();
+//        Cow.Moo();
+//    }
+//}
+
+//public class Cow
+//{
+//    public static void Moo()
+//    {
+//        Console.WriteLine("Kulpots moooooooooooo version 1");
+//    }
+//}
